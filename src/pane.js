@@ -1,4 +1,5 @@
 import Tweakpane from 'tweakpane';
+console.log(`pane loaded`);
 
 // Parameter object
 const PARAMS = {
@@ -7,6 +8,8 @@ const PARAMS = {
 };
 
 // Pass the object and its key to pane
-const pane = new Tweakpane();
-pane.addInput(PARAMS, 'speed');
-pane.addInput(PARAMS, 'mountains');
+const controlPannel = new Tweakpane();
+controlPannel.addInput(PARAMS, 'speed');
+controlPannel.addInput(PARAMS, 'mountains');
+
+export default PARAMS;
