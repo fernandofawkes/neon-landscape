@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 
+//from https://github.com/jeromeetienne/threex.geometricglow
 import THREEx from './threex.atmospherematerial';
 
 THREEx.GeometricGlowMesh = function (mesh) {

@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-
+//from https://github.com/jeromeetienne/threex.geometricglow
 /**
  * @namespace
  */
